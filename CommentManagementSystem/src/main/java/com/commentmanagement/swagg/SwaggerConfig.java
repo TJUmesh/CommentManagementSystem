@@ -9,7 +9,7 @@ public class SwaggerConfig {
 
 	@Bean
 	public GroupedOpenApi publicApi() {
-		return GroupedOpenApi.builder().group("springshop-public").packagesToScan("com.commentmanagement.controller.CommentController").build();
+		return GroupedOpenApi.builder().group("springshop-public").packagesToScan("com.commentmanagement.controller").build();
 
 	}
 }
